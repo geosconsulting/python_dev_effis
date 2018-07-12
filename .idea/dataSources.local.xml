@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="e1gwis@localhost" uuid="a45d344d-4535-40ef-810e-11e91528a5ab">
+      <database-info product="PostgreSQL" version="9.6.8" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>e1gwis:*</introspection-schemas>
+    </data-source>
+    <data-source name="Oracle - @esposito.ies.jrc.it" uuid="5f52dd38-a61d-482d-9f40-794cd35c452b">
+      <database-info product="Oracle" version="Oracle Database 12c Enterprise Edition Release 12.1.0.1.0 - 64bit Production&#10;With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>effis</user-name>
+      <introspection-schemas>*:EFFIS,FIRPRD,GWSPRD,RDAPRD</introspection-schemas>
+    </data-source>
+    <data-source name="e1gwis@pgsql96-srv1.jrc.org" uuid="1886e92c-b60a-4ece-9039-c1419cdb19eb">
+      <database-info product="PostgreSQL" version="9.6.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>e1gwis</user-name>
+      <introspection-schemas>e1gwis:*</introspection-schemas>
+    </data-source>
+  </component>
+</project>

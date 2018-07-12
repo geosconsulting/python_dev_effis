@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="e1gwis@localhost" uuid="a45d344d-4535-40ef-810e-11e91528a5ab">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/e1gwis</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Oracle - @esposito.ies.jrc.it" uuid="5f52dd38-a61d-482d-9f40-794cd35c452b">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//esposito.ies.jrc.it:1521/esposito</jdbc-url>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="e1gwis@pgsql96-srv1.jrc.org" uuid="1886e92c-b60a-4ece-9039-c1419cdb19eb">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pgsql96-srv1.jrc.org:5432/e1gwis</jdbc-url>
+    </data-source>
+  </component>
+</project>
